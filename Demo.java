@@ -6,5 +6,6 @@ public class Demo {
         System.out.println("my second line of code2");
         System.out.println(new Date().toString());
         System.out.println("adding one more final line");
+        System.out.println("this is to demonstrate how cicd is working after pushing into github");
     }
 }

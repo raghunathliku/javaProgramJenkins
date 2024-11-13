@@ -7,5 +7,11 @@ public class Demo {
         System.out.println(new Date().toString());
         System.out.println("adding one more final line");
         System.out.println("this is to demonstrate how cicd is working after pushing into github");
+
+        Student s = new Student();
+        s.setName("Raghunath Das");
+        s.setAdd("PUNE");
+        s.setAge(25);
+        System.out.println(s);
     }
 }
